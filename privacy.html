@@ -187,19 +187,19 @@ footer a:hover { text-decoration: underline; }
     Privacy First
   </div>
   <h1>Privacy Policy</h1>
-  <p>Last updated: March 2026</p>
+  <p>Last updated: October 2026</p>
 </div>
 
 <div class="wrap">
 
   <div class="section">
     <h2>Overview</h2>
-    <p>Arksio is designed with your privacy as the top priority. Your data never leaves your device or your personal iCloud account. Arksio does not operate its own servers for data storage. We cannot access, view, or retrieve your documents, photos, or personal information.</p>
+    <p>Arksio is designed with your privacy as the top priority. Your documents, photos, and files stay on your device and in your personal iCloud account. Arksio does not store your documents on its servers, and we cannot access, view, or retrieve your documents, photos, or files. The only exception is the optional AI Renewal Guide: when you use it, the specific details described in the “AI Renewal Guide” section below are sent to generate your guide.</p>
   </div>
 
   <div class="section">
     <h2>What data we collect</h2>
-    <p>We collect only what you enter in the app: family member names, document types, expiry dates, document numbers, notes, insurance details, and photos or PDFs of your documents. This data is stored exclusively on your iPhone and your personal iCloud account.</p>
+    <p>We collect only what you enter in the app: family member names, document types, expiry dates, document numbers, notes, insurance details, and photos or PDFs of your documents. This data is stored exclusively on your iPhone and your personal iCloud account. The details sent when you use the AI Renewal Guide are described in that section.</p>
   </div>
 
   <div class="section">
@@ -219,12 +219,18 @@ footer a:hover { text-decoration: underline; }
 
   <div class="section">
     <h2>Who can access your data</h2>
-    <p>Only you can access your data. It is stored on your device and in your personal iCloud account. Garmor Ventures LLC and its staff have no access to your documents, photos, files, or any personal information you enter in the app. We do not sell, rent, or share your data with any third parties.</p>
+    <p>Only you can access your documents, photos, and files. They are stored on your device and in your personal iCloud account, and Garmor Ventures LLC and its staff have no access to them. We do not sell or rent your data. We only share the limited information described in this policy with the service providers that make the app work (see “Third-party services”).</p>
   </div>
 
   <div class="section">
     <h2>Data sharing — PDF export</h2>
     <p>When you use the Share Document feature, a PDF is generated locally on your device. You choose what to include and who to share it with. Arksio does not transmit this PDF through any server.</p>
+  </div>
+
+  <div class="section">
+    <h2>AI Renewal Guide</h2>
+    <p>The AI Renewal Guide is an optional Premium feature. When you use it, Arksio sends the following to our server (Google Cloud Functions, through Firebase) and from there to Anthropic, PBC, the provider of the Claude AI model that writes your guide: the document type, issuing country or organization, expiry date, the notes you added to that document, your approximate location (city, region, and country, only if you allow location access), and the messages you write in the chat. To find current information, the AI may run web searches based on these details. We never send your photos, PDFs, or the names of your family members.</p>
+    <p style="margin-top:10px;">Our server does not store the content of your conversations. To enforce daily limits and prevent abuse, it keeps your account ID and the number and size of the requests you make each day. Under its commercial terms, Anthropic does not use this information to train its models, and may retain it for a limited time for safety and abuse monitoring (<a href="https://www.anthropic.com/legal/privacy" style="color:var(--teal);">anthropic.com/legal/privacy</a>). If you do not use the AI Renewal Guide, none of this information leaves your device.</p>
   </div>
 
   <div class="section">
@@ -239,12 +245,12 @@ footer a:hover { text-decoration: underline; }
 
   <div class="section">
     <h2>Data retention and deletion</h2>
-    <p>Your data lives on your device. You can delete all app data at any time from Profile → Manage Account → Clear All Data. Deleting the app removes all local data. To also remove data from iCloud, go to Settings → [Your name] → iCloud → Manage Storage → Arksio → Delete Data.</p>
+    <p>Your data lives on your device. You can delete all app data at any time from Profile → Manage Account → Clear All Data. Deleting the app removes all local data. To also remove data from iCloud, go to Settings → [Your name] → iCloud → Manage Storage → Arksio → Delete Data. AI Renewal Guide usage records (account ID, date, and number and size of requests) are kept on our server to enforce limits; you can request their deletion at <a href="mailto:privacy@arksio.app" style="color:var(--teal);">privacy@arksio.app</a>.</p>
   </div>
 
   <div class="section">
     <h2>Third-party services</h2>
-    <p>Arksio uses Firebase Authentication (Google LLC) only for account login. Firebase does not have access to your documents or files. Firebase privacy practices are governed by Google's Privacy Policy at <a href="https://policies.google.com/privacy" style="color:var(--teal);">policies.google.com/privacy</a>.</p>
+    <p>Arksio uses these service providers: Firebase Authentication (Google LLC) for account login; Google Cloud Functions and Cloud Firestore (Google LLC) to run the AI Renewal Guide and keep daily usage counters; Anthropic, PBC to generate AI Renewal Guide answers; and RevenueCat, Inc. to manage Premium subscriptions (it receives your account ID and App Store purchase history, not your documents). None of these providers has access to your photos or files. Their privacy policies: <a href="https://policies.google.com/privacy" style="color:var(--teal);">policies.google.com/privacy</a>, <a href="https://www.anthropic.com/legal/privacy" style="color:var(--teal);">anthropic.com/legal/privacy</a>, and <a href="https://www.revenuecat.com/privacy" style="color:var(--teal);">revenuecat.com/privacy</a>.</p>
   </div>
 
   <div class="section">
